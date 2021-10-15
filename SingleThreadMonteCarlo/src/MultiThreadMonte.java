@@ -38,7 +38,7 @@ class PiMonteCarlo {
 }
 public class MultiThreadMonte {
     public static void main(String[] args) {
-        PiMonteCarlo PiVal = new PiMonteCarlo(100000);
+        PiMonteCarlo PiVal = new PiMonteCarlo(200000);
         long startTime = System.currentTimeMillis();
         double value = PiVal.getPi();
         long stopTime = System.currentTimeMillis();
